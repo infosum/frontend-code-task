@@ -59,7 +59,7 @@ module.exports = {
   devServer: {
     contentBase: './',
     historyApiFallback: true,
-    https: true,
+    https: false,
     port: 3000,
   },
   devtool: devTool,
